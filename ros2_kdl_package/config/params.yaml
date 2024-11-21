@@ -1,0 +1,13 @@
+ros2_kdl_node:
+  ros__parameters:
+    cmd_interface: "effort_o"
+    vel_prof: "cubic"
+    trajectory: "circular"
+    Kpp: 0.05
+    Kdd: 0.01
+    Kp: 1.0
+    Kd: 1.0
+    Kpp_o: 25.0
+    Kpo_o: 25.0
+    Kdp_o: 10.0 
+    Kdo_o: 10.0
